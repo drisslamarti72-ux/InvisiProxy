@@ -249,15 +249,15 @@ const regExpEscape = /[-[\]{}()*+?.,\\^$#\s]/g,
     ),
     version: versionValue,
     cacheVal: crypto.getRandomValues(new Uint32Array(1))[0],
-    defaultSearch: '{{DuckDuckGo}}',
+    defaultSearch: '{{Google}}',
   }),
   // List of manual censors for unavoidable cases.
   manualCensors = Object.freeze({
-    // Google: 'Google', Removed for now due to Securly
     Bing: 'Bing',
     Brave: 'Brave',
     DuckDuckGo: 'DuckDuckGo',
     Startpage: 'Startpage',
+    Google: 'Google',
     'wisp-transport': 'wst',
     libcurl: 'unix',
     epoxy: 'epoch',

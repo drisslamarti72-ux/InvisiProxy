@@ -7,6 +7,7 @@ This will be our nonexhaustive todo list for InvisiProxy LTS v6.x.x and above. R
 - [ ] Class managling and DOM masquerading functionality to Scramjet (or stealth window) 
 - [ ] Font obfuscation middleware
 - [ ] Implement multi-lang support!
+- [ ] Include default NGINX configuration for Docker Compose (will become the recommended method of hosting)
 
 ## Proxy/Site Functionality
 - [ ] Add bookmarks menu (source wise already present pretty much)
